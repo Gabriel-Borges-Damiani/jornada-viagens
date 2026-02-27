@@ -1,26 +1,42 @@
 <!doctype html>
-<html lang="en">
+<html lang="pt-br">
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/style.css" />
     <title>Jornada Viagens</title>
   </head>
   <body>
     <header>
-      <a href="#">
+      <a class="logo" href="index.html" title="voltar para página inicial">
         <img
-          src="img/bussola-jornada-preta.png"
-          alt="Bussola do logo Jornada Viagens na cor preta"
+          class="img-mobile"
+          src="img/bussola-jornada-branco.png"
+          alt="Bussola do logo Jornada Viagens na cor branca"
+        />
+        <img
+          class="img-desktop"
+          src="img/bussola-jornada-branca-desktop.png"
+          alt="Bussola do logo Jornada Viagens na cor branca"
         />
       </a>
-      <a href="#">
-        <img src="img/menu.png" alt="Menu" />
-      </a>
-      <nav>
-        <a href="">Blog</a>
-        <a href=""> Pacotes de viagem</a>
-        <a href="">Contato</a>
-      </nav>
+
+      <div class="navigation-menu">
+        <label for="siteMenu"><img src="img/menu.png" alt="Menu" /></label>
+        <input type="checkbox" name="displayMenu" id="siteMenu" hidden />
+
+        <nav>
+          <ul class="list-links">
+            <li><a href="blog.html" title="Acessar Blog">Blog</a></li>
+            <li>
+              <a href="pacotes.html" title="Acessar Pacotes de viagem"
+                >Pacotes de viagem</a
+              >
+            </li>
+            <li><a href="contato.html" title="Acessar Contato">Contato</a></li>
+          </ul>
+        </nav>
+      </div>
     </header>
   </body>
 </html>
