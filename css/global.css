@@ -40,4 +40,6 @@ button {
 
 body {
   font-family: "Montserrat";
+  color: var(--text-primary-color);
 }
+
