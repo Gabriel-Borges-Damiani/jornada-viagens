@@ -14,7 +14,6 @@
   position: static;
   padding: 0;
   margin-bottom: 24px;
-
 }
 
 .card header p {
@@ -34,7 +33,34 @@
 }
 
 @media screen and (min-width: 1024px) {
-    .button:hover {
-        background-color: var(--primary-color);
-    }
+  .button:hover {
+    background-color: var(--primary-color);
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .card {
+    width: 588px;
+    height: 308px;
+  }
+
+  .card header h3 {
+    font-size: 40px;
+    font-weight: var(--title-weight);
+    margin: 8px 0 0;
+  }
+
+  .card header span {
+    font-size: 32px;
+    margin-top: 24px;
+    display: inline-block;
+  }
+
+  .card header h3 {
+    font-size: 48px;
+  }
+
+  .card header span {
+    font-size: 40px;
+  }
 }
